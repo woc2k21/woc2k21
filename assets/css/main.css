@@ -44,7 +44,7 @@ p {
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 ul, ol {
@@ -1190,7 +1190,7 @@ h1 {
   background: #fff;
   padding-top: 16px;
   border-radius: 4px;
-  box-shadow: 0 8px 24px #E2E8ED;
+  /* box-shadow: 0 8px 24px #E2E8ED; */
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -1246,7 +1246,7 @@ h1 {
 }
 
 .schedule .schedule-tab-content .tab-content {
-  box-shadow: 0 8px 24px #E2E8ED;
+  /* box-shadow: 0 8px 24px #E2E8ED; */
 }
 
 .schedule .schedule-tab-content .card {
@@ -1254,7 +1254,8 @@ h1 {
 }
 
 .schedule .show .card-body {
-  background: #f3f4f3;
+  background: linear-gradient(65deg, #1a027f 0, #00b09b 100%);
+  color: white;
 }
 
 .schedule .card .schedule-slot-time {
@@ -1434,8 +1435,8 @@ h1 {
 
 .single-intro-text {
   padding: 45px 50px 40px 60px;
-  -webkit-box-shadow: 0 8px 24px #E2E8ED;
-  box-shadow: 0 8px 24px #E2E8ED;
+  /* -webkit-box-shadow: 0 8px 24px #E2E8ED; */
+  /* box-shadow: 0 8px 24px #E2E8ED; */
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -ms-border-radius: 4px;
