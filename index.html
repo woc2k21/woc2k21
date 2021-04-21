@@ -22,6 +22,8 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161923538-5"></script>
     <script>
@@ -34,6 +36,7 @@
 
   </head>
   <body>
+    <canvas id="canvas-id"></canvas>
 
     <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
@@ -52,11 +55,11 @@
                   Home
                 </a>
               </li>
-              <!--li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" target="_blank"href="https://docs.google.com/forms/d/e/1FAIpQLSdocwsAP62hViX06jp4HMXlyr0FxfdbLU7uRCwtYR0qOnjLog/viewform">
                   Register Now
                 </a>
-              </li-->
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#about">
                   About
@@ -125,7 +128,6 @@
         </div>
       </div>
       <!-- Hero Area End -->
-
     </header>
     <!-- Header Area wrapper End -->
 
@@ -241,8 +243,8 @@
      <!-- intro Section Start -->
     <section id="intro" class="intro section-padding">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
+        <div class="row" style="color: rgba(255, 255, 255, 1);">
+          <div class="col-12" style="background-color: rgba(255, 255, 255, 0.1);">
             <div class="section-title-header text-center">
               <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Why should you join?</h2>
               <p class="wow fadeInDown" data-wow-delay="0.2s">Participating in WoC will go a long way towards developing your technical skills. This event will be a great opportunity
@@ -311,7 +313,7 @@
                 <i class="lni-mic"></i>
               </div>
               <div class="counter-content">
-                <div class="counterUp">30</div>
+                <div class="counterUp">20</div>
                 <p>Mentors</p>
               </div>
             </div>
@@ -323,7 +325,7 @@
                 <i class="lni-bulb"></i>
               </div>
               <div class="counter-content">
-                <div class="counterUp">180</div>
+                <div class="counterUp">250</div>
                 <p>Developers</p>
               </div>
             </div>
@@ -335,7 +337,7 @@
                 <i class="lni-briefcase"></i>
               </div>
               <div class="counter-content">
-                <div class="counterUp">53</div>
+                <div class="counterUp">60</div>
                 <p>Projects</p>
               </div>
             </div>
@@ -347,8 +349,8 @@
                 <i class="lni-coffee-cup"></i>
               </div>
               <div class="counter-content">
-                <div class="counterUp">270</div>
-                <p>Coders</p>
+                <div class="counterUp">80</div>
+                <p>Teams</p>
               </div>
             </div>
           </div>
@@ -623,32 +625,32 @@
 
     	<div class="col-lg-6">
             <div class="sponsors-logo text-center">
-              <a href="#sponsors"><img src="assets/img/sponsors/si-logo.png" alt="" style="height:20%; width:80%;"></a>
+              <a href="https://www.scaler.com/"><img src="assets/img/sponsors/si-logo.png" alt="" style="height:20%; width:80%;"></a>
             </div>
       	</div>
           <div class="col-lg-6">
             <div class="sponsors-logo text-center">
-              <a href="#sponsors"><img src="assets/img/sponsors/cb-logo.png" alt="" style="height:20%; width:60%;"></a>
+              <a href="https://codingblocks.com/"><img src="assets/img/sponsors/cb-logo.png" alt="" style="height:20%; width:60%;"></a>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="sponsors-logo text-center">
-              <a href="#sponsors"><img src="assets/img/sponsors/he-logo.png" alt="" style="height:20%; width:80%;"></a>
+              <a href="https://www.hackerearth.com/"><img src="assets/img/sponsors/he-logo.png" alt="" style="height:20%; width:80%;"></a>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="sponsors-logo text-center">
-              <a href="#sponsors"><img src="assets/img/sponsors/sm-logo.png" alt="" style="height:20%; width:80%;"></a>
+              <a href="https://www.stickermule.com/en-in"><img src="assets/img/sponsors/sm-logo.png" alt="" style="height:20%; width:80%;"></a>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="sponsors-logo text-center">
-              <a href="#sponsors"><img src="assets/img/sponsors/sy-logo.png" alt="" style="height:50%; width:40%;"></a>
+              <a href="https://www.stickeryou.com/"><img src="assets/img/sponsors/sy-logo.png" alt="" style="height:50%; width:40%;"></a>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="sponsors-logo text-center">
-              <a href="#sponsors"><img src="assets/img/sponsors/ith-logo.png" alt="" style="height:30%; width:80%;"></a>
+              <a href="https://www.infotechhub.in/"><img src="assets/img/sponsors/ith-logo.png" alt="" style="height:30%; width:80%;"></a>
             </div>
           </div>
         </div>
@@ -770,13 +772,13 @@
             <br>
             <div class="social-icons-footer">
               <ul>
-                <li class="facebook"><a target="_blank" href="https://www.facebook.com/wocmnnit/"><i class="lni-facebook-filled"></i></a></li>
+                <li class="github"><a target="_blank" href="https://www.facebook.com/wocmnnit/"><i class="lni-facebook-filled"></i></a></li>
                 <!-- <li class="twitter"><a target="_blank" href="3"><i class="lni-twitter-filled"></i></a></li> -->
                 <li class="github"><a target="_blank" href="https://cc-mnnit.github.io/DevJam/"> <i class="lni-github-original"></i></a></li>
               </ul>
             </div>
             <div class="site-info">
-              <p style="font-size:14px"><i class="lni-code size-xs" style="size:18px"></i> &nbsp; with &nbsp; <i class="lni-heart-filled size-xs"></i> &nbsp; by WebTeam, WoC</p>
+              <p><i class="lni-code size-xs" style="size:18px"></i> &nbsp; with &nbsp; <i style="color: red;" class="lni-heart-filled size-xs"></i> &nbsp; by WebTeam, WoC</p>
             </div>
           </div>
         </div>
@@ -816,8 +818,9 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/nivo-lightbox.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/main.js"></script>      
+    <!-- <script src="assets/js/video.js"></script> -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/canvas.js"></script>      
 
     <!-- typing animations -->
     <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
