@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    font-family: 'Zen Dots', cursive;
+}
 
 canvas {
   background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* z-index: -1; */
   position: fixed;
   top: 0;
   left: 0;
@@ -24,7 +28,7 @@ div,
 input,
 p,
 a {
-    font-family: "Open Sans";
+    font-family: 'Zen Dots', cursive;
     margin: 0px;
 }
 
