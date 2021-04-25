@@ -103,3 +103,7 @@ a:focus {
     right: 40px;
 }
 
+#registrationModel {
+    width: clamp(100%, 95vw, 60%);
+    overflow-wrap: break-word;
+}
