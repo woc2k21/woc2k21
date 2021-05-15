@@ -107,3 +107,8 @@ a:focus {
     width: clamp(100%, 95vw, 60%);
     overflow-wrap: break-word;
 }
+
+.speaker-woc{
+    justify-content: center;
+    padding-top: 10px;
+}
