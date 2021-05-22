@@ -117,4 +117,5 @@ a:focus {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: rgb(208,76,76);
+    text-transform: lowercase;
 }
